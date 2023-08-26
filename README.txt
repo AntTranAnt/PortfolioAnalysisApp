@@ -1,47 +1,16 @@
+# PorfolioAnalysisProject
+Machine Learning Project to provide stock insight for beginner investors.
 
-# Quant-Realm
+Libraries Used:
+- Pandas, Numpy, Matplotlib, Seaborn, Plotly, Tensorflow, Scikit-learn, Streamlit, yfinance, pypfopt
 
-  ### Project Description
-  
- - Providing Better Stock Insights using Machine Learning
+Install Dependencies:
+pip install -r requirements.txt
 
-  
+dashboard.py main code file
 
-## Libraries used:
-
- - pandas
-  - numpy
-   - seaborn
-  - matplotlib
-  - plotly
-  - tensorflow
-  - Scikit-learn
-  - streamlit
-  - yfinance
-  - pypfopt
- 
-
-### Installing dependanceis
-- for installing dependencies run the below code after download project repo into your current directory
-- `pip install -r requirements.txt`
-
-## Files:
-
- - dashboard.py: Main code file for running the app
-
-
-## How to run:
-
-Download all the files:
-
-Note: Make sure all files are in the same dir
-
-After installing all the dependencies as stated above run below command via cmd/terminal
- 
-  #### run command
-
-    streamlit run dashboard.py
-    
+Run command:
+streamlit run dashboard.py
    
   
 
